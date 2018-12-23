@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 /**
  * Created by dan on 6/14/17.
  */
-public class TestStringUtilities {
+public class  TestStringUtilities {
     @Test
     public void getHelloWorldTest() {
         // : Given
