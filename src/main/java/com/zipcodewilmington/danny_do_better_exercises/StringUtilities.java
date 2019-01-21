@@ -57,14 +57,7 @@ public class StringUtilities {
      */
     public static Boolean compareTwoStrings(String inputValue, String comparableValue) {
 
-        if (inputValue == comparableValue) {
-
-            return true;
-
-        } else {
-
-            return false;
-        }
+        return inputValue.equals(comparableValue);
     }
 
     /**
@@ -74,11 +67,11 @@ public class StringUtilities {
     public static Character getMiddleCharacter(String inputValue) {
 
         int halfLength = inputValue.length() / 2;
-        Character midChar;
+        char midChar;
 
         if (halfLength % 2 == 0) {
-
             midChar = inputValue.charAt(halfLength);
+
         } else {
 
             midChar = inputValue.charAt(halfLength);
